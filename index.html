@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <title>Alisherbek ❤️ Gulnoza | To'y Taklifnomasi</title>
+    
+    <meta name="description" content="Djurayev Alisherbek va Djurayeva Gulnozaning to'y taklifnomasi.">
+    <meta name="keywords" content="to'y, taklifnoma, wedding, invitation, djurayev">
+    
+    <meta property="og:title" content="Alisherbek ❤️ Gulnoza | To'y Taklifnomasi">
+    <meta property="og:description" content="Djurayev Alisherbek va Djurayeva Gulnozaning to'y taklifnomasi.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alisherbek ❤️ Gulnoza | To'y Taklifnomasi">
+    <meta name="twitter:description" content="Djurayev Alisherbek va Djurayeva Gulnozaning to'y taklifnomasi.">
+    
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="custom-cursor"></div>
+    
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="golden-ring"></div>
+            <div class="progress-container">
+                <div class="progress-bar"></div>
+            </div>
+            <p class="loading-text">Yuklanmoqda...</p>
+        </div>
+    </div>
+    
+    <div class="music-button" id="musicButton" title="Musiqani yoqish/o'chirish">
+        <i data-lucide="music-2"></i>
+    </div>
+    
+    <div class="particles-container" id="particlesContainer"></div>
+    
+    <div class="rose-petals" id="rosePetals"></div>
+    
+    <div class="fireflies" id="fireflies"></div>
+    
+    <audio id="backgroundMusic" loop muted>
+        <source src="https://assets.mixkit.co/music/preview/mixkit-elegant-piano-wedding-97.mp3" type="audio/mpeg">
+    </audio>
+    
+    <div class="main-container" id="mainContainer">
+        
+        <section class="screen-bismillah" id="screenBismillah">
+            <div class="bismillah-content">
+                <p class="bismillah-text">Bismillahir Rohmanir Rohim</p>
+            </div>
+        </section>
+        
+        <section class="screen-envelope" id="screenEnvelope">
+            <div class="envelope-container">
+                <div class="envelope" id="envelope">
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-seal" id="envelopeSeal">
+                        <div class="seal-inner">
+                            <i data-lucide="heart"></i>
+                        </div>
+                    </div>
+                    <div class="envelope-body"></div>
+                </div>
+                <div class="envelope-letter" id="envelopeLetter"></div>
+            </div>
+            <button class="open-invitation-btn" id="openInvitationBtn">Taklifnomani ochish</button>
+        </section>
+        
+        <div class="invitation-sections" id="invitationSections">
+            
+            <section class="section-hero" id="sectionHero">
+                <div class="hero-background">
+                    <div class="floating-lights"></div>
+                </div>
+                <div class="hero-content">
+                    <h1 class="couple-name groom" id="groomName">Djurayev Alisherbek</h1>
+                    <div class="heart-divider">
+                        <i data-lucide="heart"></i>
+                    </div>
+                    <h1 class="couple-name bride" id="brideName">Djurayeva Gulnoza</h1>
+                    <p class="invitation-message" id="invitationMessage">Sizni hayotimizdagi eng baxtli kunga taklif qilamiz</p>
+                </div>
+            </section>
+            
+            <section class="section-countdown" id="sectionCountdown">
+                <div class="countdown-container">
+                    <h2 class="countdown-title">Qolgan vaqt</h2>
+                    <div class="countdown-grid">
+                        <div class="countdown-card">
+                            <div class="countdown-number" id="days">00</div>
+                            <div class="countdown-label">Kun</div>
+                        </div>
+                        <div class="countdown-card">
+                            <div class="countdown-number" id="hours">00</div>
+                            <div class="countdown-label">Soat</div>
+                        </div>
+                        <div class="countdown-card">
+                            <div class="countdown-number" id="minutes">00</div>
+                            <div class="countdown-label">Daqiqa</div>
+                        </div>
+                        <div class="countdown-card">
+                            <div class="countdown-number" id="seconds">00</div>
+                            <div class="countdown-label">Soniya</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-love-story" id="sectionLoveStory">
+                <div class="love-story-container">
+                    <h2 class="section-title">Sevgi hikoyasi</h2>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-image"></div>
+                                <h3>Birinchi uchrashuv</h3>
+                                <p>Hayotimizdagi eng chiroyli kunlardan biri</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-image"></div>
+                                <h3>Sevgi berish</h3>
+                                <p>Qalbimiz birga bo'lgan kun</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <div class="timeline-image"></div>
+                                <h3>Uchrashuv va ajoyib lahzalar</h3>
+                                <p>Birgalikda yashagan chiroyli daqiqalar</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-date" id="sectionDate">
+                <div class="date-container">
+                    <div class="date-day" id="dateDay">26</div>
+                    <div class="date-month" id="dateMonth">AVGUST</div>
+                    <div class="date-year" id="dateYear">2026</div>
+                </div>
+            </section>
+            
+            <section class="section-location" id="sectionLocation">
+                <div class="location-container">
+                    <div class="location-card">
+                        <div class="location-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <h2 class="section-title">Manzil</h2>
+                        <div class="map-preview">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29780.97156992645!2d69.24001296953124!3d41.29946677833124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa530f91c98040aca!2sTashkent%2C%20Uzbekistan!5e0!3m2!1sen!2sus!4v1689000000000!5m2!1sen!2sus"
+                                width="100%"
+                                height="100%"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <a href="https://share.google/gp4o4rncVs9zhagqA" target="_blank" class="location-btn" id="locationBtn">
+                            📍 Xaritada ochish
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-timeline" id="sectionTimeline">
+                <div class="timeline-events-container">
+                    <h2 class="section-title">Tadbirlar tartibi</h2>
+                    <div class="events-timeline">
+                        <div class="event-item">
+                            <div class="event-icon">
+                                <i data-lucide="heart"></i>
+                            </div>
+                            <div class="event-content">
+                                <h3>Nikoh</h3>
+                            </div>
+                        </div>
+                        <div class="event-arrow">
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-icon">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="event-content">
+                                <h3>Kutib olish</h3>
+                            </div>
+                        </div>
+                        <div class="event-arrow">
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-icon">
+                                <i data-lucide="sparkles"></i>
+                            </div>
+                            <div class="event-content">
+                                <h3>To'y marosimi</h3>
+                            </div>
+                        </div>
+                        <div class="event-arrow">
+                            <i data-lucide="chevron-down"></i>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-icon">
+                                <i data-lucide="party-popper"></i>
+                            </div>
+                            <div class="event-content">
+                                <h3>Bayram</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-gallery" id="sectionGallery">
+                <div class="gallery-container">
+                    <h2 class="section-title">Foto galereya</h2>
+                    <div class="gallery-grid">
+                        <div class="gallery-item" data-index="0"></div>
+                        <div class="gallery-item" data-index="1"></div>
+                        <div class="gallery-item" data-index="2"></div>
+                        <div class="gallery-item" data-index="3"></div>
+                        <div class="gallery-item" data-index="4"></div>
+                        <div class="gallery-item" data-index="5"></div>
+                        <div class="gallery-item" data-index="6"></div>
+                        <div class="gallery-item" data-index="7"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <div class="lightbox" id="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" id="lightboxClose">
+                        <i data-lucide="x"></i>
+                    </button>
+                    <div class="lightbox-image" id="lightboxImage"></div>
+                </div>
+            </div>
+            
+            <section class="section-rsvp" id="sectionRsvp">
+                <div class="rsvp-container">
+                    <h2 class="section-title">RSVP</h2>
+                    <form class="rsvp-form" id="rsvpForm">
+                        <div class="form-group">
+                            <label for="rsvpName">Ismingiz</label>
+                            <input type="text" id="rsvpName" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="rsvpPhone">Telefon raqamingiz</label>
+                            <input type="tel" id="rsvpPhone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Qatnashasizmi?</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="attend" value="yes" checked>
+                                    <span>Ha</span>
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="attend" value="no">
+                                    <span>Yo'q</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="rsvpMessage">Xabar (ixtiyoriy)</label>
+                            <textarea id="rsvpMessage" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Yuborish</button>
+                    </form>
+                    <div class="success-message" id="successMessage">
+                        <div class="success-icon">
+                            <i data-lucide="check-circle"></i>
+                        </div>
+                        <p>Rahmat! Javobingiz qabul qilindi!</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-final" id="sectionFinal">
+                <div class="final-container">
+                    <h2 class="final-text" id="finalText">Sizni sabrsizlik bilan kutamiz</h2>
+                    <div class="final-couple">
+                        <span id="finalGroom">Djurayev Alisherbek</span>
+                        <i data-lucide="heart"></i>
+                        <span id="finalBride">Djurayeva Gulnoza</span>
+                    </div>
+                </div>
+            </section>
+            
+            <footer class="footer">
+                <p>© 2026 Alisherbek & Gulnoza</p>
+            </footer>
+            
+        </div>
+    </div>
+    
+    <div class="confetti" id="confetti"></div>
+    
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
