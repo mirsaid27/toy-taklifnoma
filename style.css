@@ -496,6 +496,15 @@ body {
     height: 100%;
 }
 
+<<<<<<< HEAD
+=======
+.floating-lights {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+>>>>>>> 9a7cf4e2cebd5996d45552307f83d7d908ef7f2e
 .floating-lights::before,
 .floating-lights::after {
     content: '';
